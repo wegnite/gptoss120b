@@ -1,4 +1,83 @@
+# GPT-OSS-120B Robots.txt
+# https://gpt-oss-120b.ai
+
+# Allow all search engines
 User-agent: *
+Allow: /
+Allow: /en/
+Allow: /zh/
+Allow: /pricing
+Allow: /showcase
+Allow: /posts
+Allow: /auth/signin
+Allow: /privacy-policy
+Allow: /terms-of-service
+Disallow: /api/
+Disallow: /admin/
+Disallow: /api-keys/create
+Disallow: /pay-success/
+Disallow: /_next/static/
 Disallow: /*?*q=
-Disallow: /privacy-policy
-Disallow: /terms-of-service
+
+# Specific rules for major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 0
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 1
+
+User-agent: Yandex
+Allow: /
+Crawl-delay: 1
+
+# Allow social media crawlers
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: Telegrambot
+Allow: /
+
+# Block bad bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: Majestic-12
+Disallow: /
+
+# Sitemap location
+Sitemap: https://gpt-oss-120b.ai/sitemap.xml
+
+# Host (for Yandex)
+Host: https://gpt-oss-120b.ai
