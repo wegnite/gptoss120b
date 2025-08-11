@@ -1,5 +1,5 @@
 # GPT-OSS-120B Robots.txt
-# https://gpt-oss-120b.ai
+# https://gpt-oss-120b.net
 
 # Allow all search engines
 User-agent: *
@@ -77,7 +77,7 @@ User-agent: Majestic-12
 Disallow: /
 
 # Sitemap location
-Sitemap: https://gpt-oss-120b.ai/sitemap.xml
+Sitemap: https://gpt-oss-120b.net/sitemap.xml
 
 # Host (for Yandex)
-Host: https://gpt-oss-120b.ai
+Host: https://gpt-oss-120b.net
