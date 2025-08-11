@@ -22,10 +22,10 @@ export default async function AdminLayout({
 
   const sidebar: Sidebar = {
     brand: {
-      title: "ShipAny",
+      title: "GPT-OSS-120B",
       logo: {
         src: "/logo.png",
-        alt: "ShipAny",
+        alt: "GPT-OSS-120B",
       },
       url: "/admin",
     },
@@ -67,19 +67,19 @@ export default async function AdminLayout({
       items: [
         {
           title: "Documents",
-          url: "https://docs.shipany.ai",
+          url: "https://docs.gpt-oss-120b.ai",
           target: "_blank",
           icon: "RiFileTextLine",
         },
         {
           title: "Blocks",
-          url: "https://shipany.ai/blocks",
+          url: "https://gpt-oss-120b.ai/blocks",
           target: "_blank",
           icon: "RiDashboardLine",
         },
         {
           title: "Showcases",
-          url: "https://shipany.ai/showcase",
+          url: "https://gpt-oss-120b.ai/showcase",
           target: "_blank",
           icon: "RiAppsLine",
         },
@@ -95,7 +95,7 @@ export default async function AdminLayout({
         },
         {
           title: "Github",
-          url: "https://github.com/shipanyai/shipany-template-one",
+          url: "https://github.com/gpt-oss-120b/gpt-oss-120b-template-one",
           target: "_blank",
           icon: "RiGithubLine",
         },
@@ -107,7 +107,7 @@ export default async function AdminLayout({
         },
         {
           title: "X",
-          url: "https://x.com/shipanyai",
+          url: "https://x.com/gptoss120b",
           target: "_blank",
           icon: "RiTwitterLine",
         },

@@ -51,7 +51,7 @@ export default async function () {
         {
           title: t("my_orders.read_docs"),
           icon: "RiBookLine",
-          url: "https://docs.shipany.ai",
+          url: "https://docs.gpt-oss-120b.ai",
           target: "_blank",
           variant: "outline",
         },

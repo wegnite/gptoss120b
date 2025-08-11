@@ -1,0 +1,26 @@
+{
+  "name": "GPT-OSS-120B",
+  "short_name": "GPT-OSS-120B",
+  "description": "Next-Generation Open Source AI Model with 120B parameters",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/favicon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#a855f7",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "start_url": "/"
+}

@@ -3,7 +3,7 @@
     "name": "pricing",
     "label": "定价",
     "title": "定价",
-    "description": "获取 ShipAny 的所有功能，快速启动您的 AI SaaS 创业项目。",
+    "description": "获取 GPT-OSS-120B 的所有功能，快速启动您的 AI SaaS 创业项目。",
     "groups": [],
     "items": [
       {
@@ -29,12 +29,12 @@
         "is_featured": false,
         "tip": "一次付费，无限项目！",
         "button": {
-          "title": "获取 ShipAny",
+          "title": "获取 GPT-OSS-120B",
           "url": "/#pricing",
           "icon": "RiFlashlightFill"
         },
         "product_id": "starter",
-        "product_name": "ShipAny 模板入门版",
+        "product_name": "GPT-OSS-120B 模板入门版",
         "credits": 100,
         "valid_months": 1
       },
@@ -63,12 +63,12 @@
         "is_featured": true,
         "tip": "一次付费，无限项目！",
         "button": {
-          "title": "获取 ShipAny",
+          "title": "获取 GPT-OSS-120B",
           "url": "/#pricing",
           "icon": "RiFlashlightFill"
         },
         "product_id": "standard",
-        "product_name": "ShipAny 模板标准版",
+        "product_name": "GPT-OSS-120B 模板标准版",
         "credits": 200,
         "valid_months": 3
       },
@@ -95,12 +95,12 @@
         "is_featured": false,
         "tip": "一次付费，无限项目！",
         "button": {
-          "title": "获取 ShipAny",
+          "title": "获取 GPT-OSS-120B",
           "url": "/#pricing",
           "icon": "RiFlashlightFill"
         },
         "product_id": "premium",
-        "product_name": "ShipAny 模板高级版",
+        "product_name": "GPT-OSS-120B 模板高级版",
         "credits": 300,
         "valid_months": 12
       }

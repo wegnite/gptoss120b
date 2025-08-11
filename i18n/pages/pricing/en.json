@@ -3,7 +3,7 @@
     "name": "pricing",
     "label": "Pricing",
     "title": "Pricing",
-    "description": "Get all features of ShipAny, Ship your AI SaaS startups fast.",
+    "description": "Get all features of GPT-OSS-120B, Ship your AI SaaS startups fast.",
     "groups": [],
     "items": [
       {
@@ -29,12 +29,12 @@
         "is_featured": false,
         "tip": "Pay once. Build unlimited projects!",
         "button": {
-          "title": "Get ShipAny",
+          "title": "Get GPT-OSS-120B",
           "url": "/#pricing",
           "icon": "RiFlashlightFill"
         },
         "product_id": "starter",
-        "product_name": "ShipAny Boilerplate Starter",
+        "product_name": "GPT-OSS-120B Boilerplate Starter",
         "credits": 100,
         "valid_months": 1
       },
@@ -63,12 +63,12 @@
         "is_featured": true,
         "tip": "Pay once. Build unlimited projects!",
         "button": {
-          "title": "Get ShipAny",
+          "title": "Get GPT-OSS-120B",
           "url": "/#pricing",
           "icon": "RiFlashlightFill"
         },
         "product_id": "standard",
-        "product_name": "ShipAny Boilerplate Standard",
+        "product_name": "GPT-OSS-120B Boilerplate Standard",
         "credits": 200,
         "valid_months": 3
       },
@@ -95,12 +95,12 @@
         "is_featured": false,
         "tip": "Pay once. Build unlimited projects!",
         "button": {
-          "title": "Get ShipAny",
+          "title": "Get GPT-OSS-120B",
           "url": "/#pricing",
           "icon": "RiFlashlightFill"
         },
         "product_id": "premium",
-        "product_name": "ShipAny Boilerplate Premium",
+        "product_name": "GPT-OSS-120B Boilerplate Premium",
         "credits": 300,
         "valid_months": 12
       }

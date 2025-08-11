@@ -1,6 +1,6 @@
-# ShipAny Template One
+# GPT-OSS-120B Template One
 
-Ship Any AI SaaS Startups in hours.
+GPT-OSS-120B AI SaaS Startups in hours.
 
 ![preview](preview.png)
 
@@ -9,7 +9,7 @@ Ship Any AI SaaS Startups in hours.
 1. Clone the repository
 
 ```bash
-git clone https://github.com/shipanyai/shipany-template-one.git
+git clone https://github.com/gpt-oss-120b/gpt-oss-120b-template-one.git
 ```
 
 2. Install dependencies
@@ -44,7 +44,7 @@ cp .env.example .env.local
 
 - Deploy to Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fshipanyai%2Fshipany-template-one&project-name=my-shipany-project&repository-name=my-shipany-project&redirect-url=https%3A%2F%2Fshipany.ai&demo-title=ShipAny&demo-description=Ship%20Any%20AI%20Startup%20in%20hours%2C%20not%20days&demo-url=https%3A%2F%2Fshipany.ai&demo-image=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FGgGSW3La8AAGJgU%3Fformat%3Djpg%26name%3Dlarge)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fgpt-oss-120b%2Fgpt-oss-120b-template-one&project-name=my-gpt-oss-120b-project&repository-name=my-gpt-oss-120b-project&redirect-url=https%3A%2F%2Fgpt-oss-120b.ai&demo-title=GPT-OSS-120B&demo-description=GPT-OSS-120B%20AI%20Startup%20in%20hours%2C%20not%20days&demo-url=https%3A%2F%2Fgpt-oss-120b.ai&demo-image=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FGgGSW3La8AAGJgU%3Fformat%3Djpg%26name%3Dlarge)
 
 - Deploy to Cloudflare
 
@@ -67,10 +67,10 @@ npm run cf:deploy
 
 ## Community
 
-- [ShipAny](https://shipany.ai)
-- [Documentation](https://docs.shipany.ai)
+- [GPT-OSS-120B](https://gpt-oss-120b.ai)
+- [Documentation](https://docs.gpt-oss-120b.ai)
 - [Discord](https://discord.gg/HQNnrzjZQS)
 
 ## License
 
-- [ShipAny AI SaaS Boilerplate License Agreement](LICENSE)
+- [GPT-OSS-120B AI SaaS Boilerplate License Agreement](LICENSE)
