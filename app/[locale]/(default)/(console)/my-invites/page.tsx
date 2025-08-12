@@ -63,7 +63,7 @@ export default async function () {
           <RiEmotionSadFill className="w-8 h-8" />
           <span>{t("my_invites.no_affiliates")}</span>
           <Link
-            href="https://discord.gg/HQNnrzjZQS"
+            href="/discord"
             target="_blank"
             className="flex items-center gap-1 font-semibold text-sm text-primary border border-primary rounded-md px-4 py-2"
           >

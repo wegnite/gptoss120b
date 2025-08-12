@@ -98,17 +98,13 @@ export default function GPTOSSFAQ() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://discord.gg/gptoss120b"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/discord"
                 className="inline-flex items-center justify-center px-6 py-3 bg-purple-600 hover:bg-purple-700 text-white rounded-lg font-medium transition-colors"
               >
                 Join Discord Community
               </a>
               <a
-                href="https://github.com/gpt-oss/gpt-oss-120b"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/docs"
                 className="inline-flex items-center justify-center px-6 py-3 border border-gray-300 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-800 rounded-lg font-medium transition-colors text-gray-700 dark:text-gray-300"
               >
                 View Documentation

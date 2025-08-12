@@ -1,8 +1,6 @@
-import { getTranslations } from "next-intl/server";
 import { Metadata } from "next";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const t = await getTranslations();
   
   return {
     title: "AI Resources & Tools | GPT-OSS-120B",
@@ -11,7 +9,6 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default async function ResourcesPage() {
-  const t = await getTranslations();
   
   return (
     <main className="min-h-screen py-20">
@@ -33,7 +30,7 @@ export default async function ResourcesPage() {
               Comprehensive guides and API documentation for GPT-OSS-120B
             </p>
             <a
-              href="https://docs.gpt-oss-120b.ai"
+              href="/docs"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary hover:underline"
@@ -49,7 +46,7 @@ export default async function ResourcesPage() {
               Ready-to-use UI components for AI applications
             </p>
             <a
-              href="https://gpt-oss-120b.ai/components"
+              href="/components"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary hover:underline"
@@ -65,7 +62,7 @@ export default async function ResourcesPage() {
               Starter templates for building AI-powered applications
             </p>
             <a
-              href="https://gpt-oss-120b.ai/templates"
+              href="/templates"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary hover:underline"
@@ -74,22 +71,6 @@ export default async function ResourcesPage() {
             </a>
           </div>
 
-          {/* AI Tools Directory */}
-          <div className="rounded-lg border bg-card p-6 hover:shadow-lg transition-shadow">
-            <h2 className="text-2xl font-semibold mb-4">AI Tools Discovery</h2>
-            <p className="text-muted-foreground mb-4">
-              Explore a comprehensive directory of AI tools and services. Find the perfect tools for your AI projects.
-            </p>
-            <a
-              href="https://mossai.org"
-              title="MossAI Tools Directory"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-primary hover:underline"
-            >
-              Discover AI Tools →
-            </a>
-          </div>
 
           {/* Community Resources */}
           <div className="rounded-lg border bg-card p-6 hover:shadow-lg transition-shadow">
@@ -99,7 +80,7 @@ export default async function ResourcesPage() {
             </p>
             <div className="space-y-2">
               <a
-                href="https://github.com/gpt-oss-120b"
+                href="/github"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block text-primary hover:underline"
@@ -107,7 +88,7 @@ export default async function ResourcesPage() {
                 GitHub Repository
               </a>
               <a
-                href="https://discord.gg/HQNnrzjZQS"
+                href="/discord"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block text-primary hover:underline"
@@ -132,52 +113,6 @@ export default async function ResourcesPage() {
           </div>
         </div>
 
-        {/* Partner Tools Section */}
-        <div className="mt-16">
-          <h2 className="text-3xl font-bold mb-8 text-center">Partner Tools & Services</h2>
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-            <a
-              href="https://thinkany.ai"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded-lg border bg-card p-4 hover:shadow-md transition-shadow text-center"
-            >
-              <h3 className="font-semibold mb-2">ThinkAny</h3>
-              <p className="text-sm text-muted-foreground">AI-powered thinking assistant</p>
-            </a>
-            
-            <a
-              href="https://heybeauty.ai"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded-lg border bg-card p-4 hover:shadow-md transition-shadow text-center"
-            >
-              <h3 className="font-semibold mb-2">HeyBeauty</h3>
-              <p className="text-sm text-muted-foreground">AI beauty and style advisor</p>
-            </a>
-            
-            <a
-              href="https://pagen.so"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded-lg border bg-card p-4 hover:shadow-md transition-shadow text-center"
-            >
-              <h3 className="font-semibold mb-2">Pagen</h3>
-              <p className="text-sm text-muted-foreground">AI page generator</p>
-            </a>
-            
-            <a
-              href="https://mossai.org"
-              title="MossAI Tools Directory"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded-lg border bg-card p-4 hover:shadow-md transition-shadow text-center"
-            >
-              <h3 className="font-semibold mb-2">MossAI</h3>
-              <p className="text-sm text-muted-foreground">Comprehensive AI tools directory</p>
-            </a>
-          </div>
-        </div>
       </div>
     </main>
   );

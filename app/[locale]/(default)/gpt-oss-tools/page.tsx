@@ -109,7 +109,7 @@ export default function GPTOSSToolsPage() {
                 Join thousands of developers building with GPT-OSS technology.
               </p>
               <ul className="space-y-2">
-                <li><a href="https://github.com/gpt-oss" className="text-primary hover:underline">GitHub Organization</a></li>
+                <li><a href="/github" className="text-primary hover:underline">GitHub Organization</a></li>
                 <li><a href="/discord" className="text-primary hover:underline">Discord Server</a></li>
                 <li><a href="/forum" className="text-primary hover:underline">Community Forum</a></li>
               </ul>
@@ -117,23 +117,6 @@ export default function GPTOSSToolsPage() {
           </div>
         </section>
 
-        {/* External Tools Directory */}
-        <section className="mb-16">
-          <h2 className="text-3xl font-bold mb-8">GPT-OSS Compatible Tools Directory</h2>
-          <div className="rounded-lg border bg-gradient-to-r from-purple-50 to-pink-50 dark:from-purple-950/20 dark:to-pink-950/20 p-8">
-            <h3 className="text-2xl font-semibold mb-4">Discover More AI Tools</h3>
-            <p className="text-muted-foreground mb-6">
-              Looking for additional AI tools that complement GPT-OSS-120B? Explore a curated directory of AI tools and services 
-              that can enhance your GPT-OSS development workflow.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4">
-              <a href="https://mossai.org" title="MossAI Tools Directory" className="inline-block">
-                MossAI Tools Diresctory
-              </a>
-              <span className="text-muted-foreground">- Comprehensive AI tools catalog for developers</span>
-            </div>
-          </div>
-        </section>
 
         {/* GPT-OSS Templates */}
         <section className="mb-16">
@@ -164,7 +147,7 @@ export default function GPTOSSToolsPage() {
             <a href="/docs" className="px-6 py-3 bg-primary text-primary-foreground rounded-lg hover:opacity-90">
               View Documentation
             </a>
-            <a href="https://github.com/gpt-oss" className="px-6 py-3 border rounded-lg hover:bg-accent">
+            <a href="/github" className="px-6 py-3 border rounded-lg hover:bg-accent">
               GitHub Repository
             </a>
           </div>

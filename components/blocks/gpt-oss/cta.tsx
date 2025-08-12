@@ -88,9 +88,7 @@ export default function GPTOSSCTA() {
                   Access source code, contribute, and self-host the model.
                 </p>
                 <a 
-                  href="https://github.com/gpt-oss/gpt-oss-120b"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="/github"
                   className="text-sm font-medium text-purple-600 dark:text-purple-400 hover:underline inline-flex items-center gap-1"
                 >
                   View on GitHub
@@ -113,9 +111,7 @@ export default function GPTOSSCTA() {
                   Comprehensive guides, API references, and tutorials.
                 </p>
                 <a 
-                  href="https://docs.gpt-oss-120b.ai"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="/docs"
                   className="text-sm font-medium text-purple-600 dark:text-purple-400 hover:underline inline-flex items-center gap-1"
                 >
                   Read Docs
