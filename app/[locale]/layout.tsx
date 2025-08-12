@@ -54,13 +54,11 @@ export default async function RootLayout({
           <meta name="google-adsense-account" content={googleAdsenseCode} />
         )}
 
-        {/* Favicon */}
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-        <link rel="manifest" href="/site.webmanifest" />
+        {/* GPT-OSS-120B Icons */}
+        <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.svg" />
+        <link rel="manifest" href="/manifest.json" />
         <meta name="msapplication-TileColor" content="#a855f7" />
         <meta name="theme-color" content="#a855f7" />
 
@@ -73,7 +71,7 @@ export default async function RootLayout({
               href={`${webUrl}${loc === "en" ? "" : `/${loc}`}/`}
             />
           ))}
-        <link rel="alternate" hrefLang="x-default" href={webUrl} />
+        {webUrl && <link rel="alternate" hrefLang="x-default" href={webUrl} />}
       </head>
       <body
         className={cn(

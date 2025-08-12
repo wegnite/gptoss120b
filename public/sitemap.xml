@@ -168,4 +168,52 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
+
+  <!-- GPT-OSS Tools Page (存在: app/[locale]/(default)/gpt-oss-tools/page.tsx) -->
+  <url>
+    <loc>https://gpt-oss-120b.net/gpt-oss-tools</loc>
+    <lastmod>2025-01-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gpt-oss-120b.net/en/gpt-oss-tools"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://gpt-oss-120b.net/zh/gpt-oss-tools"/>
+  </url>
+  
+  <url>
+    <loc>https://gpt-oss-120b.net/en/gpt-oss-tools</loc>
+    <lastmod>2025-01-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://gpt-oss-120b.net/zh/gpt-oss-tools</loc>
+    <lastmod>2025-01-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Resources Page (存在: app/[locale]/(default)/resources/page.tsx) -->
+  <url>
+    <loc>https://gpt-oss-120b.net/resources</loc>
+    <lastmod>2025-01-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gpt-oss-120b.net/en/resources"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://gpt-oss-120b.net/zh/resources"/>
+  </url>
+  
+  <url>
+    <loc>https://gpt-oss-120b.net/en/resources</loc>
+    <lastmod>2025-01-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://gpt-oss-120b.net/zh/resources</loc>
+    <lastmod>2025-01-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>

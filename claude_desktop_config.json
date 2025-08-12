@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "gpt-oss-120b": {
+      "command": "node",
+      "args": [
+        "/Users/shengdongyang/githubWrokspace/gptoss120b/mcp-server/dist/index.js"
+      ],
+      "env": {
+        "GPT_OSS_120B_API_URL": "https://api.gpt-oss-120b.net/v1",
+        "GPT_OSS_120B_API_KEY": "your-api-key-here",
+        "OPENAI_API_KEY": "your-openai-key-if-needed",
+        "DEEPSEEK_API_KEY": "your-deepseek-key-if-needed"
+      }
+    }
+  }
+}

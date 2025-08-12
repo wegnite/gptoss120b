@@ -1,0 +1,21 @@
+{
+  "name": "gpt-oss-120b-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for GPT-OSS-120B AI platform",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch index.ts",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.2",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.10",
+    "tsx": "^4.21.4",
+    "typescript": "^5.7.2"
+  }
+}
