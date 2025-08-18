@@ -5,10 +5,10 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   
-  <!-- Homepage - Highest Priority (存在: app/[locale]/(default)/page.tsx) -->
+  <!-- Homepage Root - Highest Priority -->
   <url>
     <loc>https://gpt-oss-120b.net/</loc>
-    <lastmod>2025-01-11</lastmod>
+    <lastmod>2025-01-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://gpt-oss-120b.net/en"/>
@@ -19,10 +19,11 @@
   <!-- English Homepage -->
   <url>
     <loc>https://gpt-oss-120b.net/en</loc>
-    <lastmod>2025-01-11</lastmod>
+    <lastmod>2025-01-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
+  
   
   <!-- Chinese Homepage -->
   <url>
@@ -33,15 +34,6 @@
   </url>
 
   <!-- Pricing Page (存在: app/[locale]/(default)/pricing/page.tsx) -->
-  <url>
-    <loc>https://gpt-oss-120b.net/pricing</loc>
-    <lastmod>2025-01-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://gpt-oss-120b.net/en/pricing"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://gpt-oss-120b.net/zh/pricing"/>
-  </url>
-  
   <url>
     <loc>https://gpt-oss-120b.net/en/pricing</loc>
     <lastmod>2025-01-11</lastmod>
@@ -58,15 +50,6 @@
 
   <!-- Showcase Page (存在: app/[locale]/(default)/showcase/page.tsx) -->
   <url>
-    <loc>https://gpt-oss-120b.net/showcase</loc>
-    <lastmod>2025-01-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://gpt-oss-120b.net/en/showcase"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://gpt-oss-120b.net/zh/showcase"/>
-  </url>
-  
-  <url>
     <loc>https://gpt-oss-120b.net/en/showcase</loc>
     <lastmod>2025-01-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -81,15 +64,6 @@
   </url>
 
   <!-- Blog/Posts Section (存在: app/[locale]/(default)/posts/page.tsx) -->
-  <url>
-    <loc>https://gpt-oss-120b.net/posts</loc>
-    <lastmod>2025-01-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://gpt-oss-120b.net/en/posts"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://gpt-oss-120b.net/zh/posts"/>
-  </url>
-  
   <url>
     <loc>https://gpt-oss-120b.net/en/posts</loc>
     <lastmod>2025-01-11</lastmod>
@@ -106,15 +80,6 @@
 
   <!-- Authentication Pages (存在: app/[locale]/auth/signin/page.tsx) -->
   <url>
-    <loc>https://gpt-oss-120b.net/auth/signin</loc>
-    <lastmod>2025-01-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://gpt-oss-120b.net/en/auth/signin"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://gpt-oss-120b.net/zh/auth/signin"/>
-  </url>
-  
-  <url>
     <loc>https://gpt-oss-120b.net/en/auth/signin</loc>
     <lastmod>2025-01-11</lastmod>
     <changefreq>monthly</changefreq>
@@ -128,30 +93,7 @@
     <priority>0.7</priority>
   </url>
 
-  <!-- Console Pages (这些需要登录，但存在对应文件) -->
-  <!-- 存在: app/[locale]/(default)/(console)/my-credits/page.tsx -->
-  <url>
-    <loc>https://gpt-oss-120b.net/my-credits</loc>
-    <lastmod>2025-01-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <!-- 存在: app/[locale]/(default)/(console)/my-orders/page.tsx -->
-  <url>
-    <loc>https://gpt-oss-120b.net/my-orders</loc>
-    <lastmod>2025-01-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <!-- 存在: app/[locale]/(default)/(console)/api-keys/page.tsx -->
-  <url>
-    <loc>https://gpt-oss-120b.net/api-keys</loc>
-    <lastmod>2025-01-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
+  <!-- Console Pages (需要登录，从sitemap中移除) -->
 
   <!-- Legal Pages (存在: app/(legal)/privacy-policy/page.mdx) -->
   <url>
@@ -171,15 +113,6 @@
 
   <!-- GPT-OSS Tools Page (存在: app/[locale]/(default)/gpt-oss-tools/page.tsx) -->
   <url>
-    <loc>https://gpt-oss-120b.net/gpt-oss-tools</loc>
-    <lastmod>2025-01-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://gpt-oss-120b.net/en/gpt-oss-tools"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://gpt-oss-120b.net/zh/gpt-oss-tools"/>
-  </url>
-  
-  <url>
     <loc>https://gpt-oss-120b.net/en/gpt-oss-tools</loc>
     <lastmod>2025-01-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -194,15 +127,6 @@
   </url>
 
   <!-- Resources Page (存在: app/[locale]/(default)/resources/page.tsx) -->
-  <url>
-    <loc>https://gpt-oss-120b.net/resources</loc>
-    <lastmod>2025-01-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://gpt-oss-120b.net/en/resources"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://gpt-oss-120b.net/zh/resources"/>
-  </url>
-  
   <url>
     <loc>https://gpt-oss-120b.net/en/resources</loc>
     <lastmod>2025-01-12</lastmod>

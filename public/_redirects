@@ -1,0 +1,23 @@
+# Redirects for Vercel deployment
+# Format: source destination status
+
+# DO NOT redirect root - let Next.js middleware handle i18n
+# Root path / will be handled by next-intl middleware
+
+# Console pages (require auth)
+/my-credits /en/auth/signin 302
+/my-orders /en/auth/signin 302
+/api-keys /en/auth/signin 302
+
+# Handle undefined and invalid paths
+/undefined /en 301
+/undefined/* /en 301
+/$ /en 301
+
+# Non-existent pages
+/forum /en 302
+/studio /en 302
+/templates /en 302
+
+# Specific redirects
+/zh/gpt-oss-120b /zh/gpt-oss-tools 301
