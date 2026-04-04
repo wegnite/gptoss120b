@@ -94,7 +94,25 @@ export default function Footer({ footer }: { footer: FooterType }) {
               </ul>
             )}
           </div>
-        </footer>
+                    {/* WHITE-LINK-FANOUT:START */}
+      <div className="mt-6 border-t border-border/40 pt-4 text-center">
+        <p className="text-xs font-medium uppercase tracking-[0.2em] text-muted-foreground/80">
+          Related Sites
+        </p>
+        <div className="mt-3 flex flex-wrap justify-center gap-x-4 gap-y-2">
+        <a
+          key="songunique.com"
+          href="https://songunique.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-xs text-muted-foreground hover:text-foreground transition-colors"
+        >
+          songunique.com
+        </a>
+        </div>
+      </div>
+      {/* WHITE-LINK-FANOUT:END */}
+</footer>
       </div>
     </section>
   );
