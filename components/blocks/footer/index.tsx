@@ -94,20 +94,20 @@ export default function Footer({ footer }: { footer: FooterType }) {
               </ul>
             )}
           </div>
-                          {/* WHITE-LINK-FANOUT:START */}
+                                {/* WHITE-LINK-FANOUT:START */}
       <div className="mt-6 border-t border-border/40 pt-4 text-center">
         <p className="text-xs font-medium uppercase tracking-[0.2em] text-muted-foreground/80">
           Related Sites
         </p>
         <div className="mt-3 flex flex-wrap justify-center gap-x-4 gap-y-2">
         <a
-          key="happy-horse.cc"
-          href="https://happy-horse.cc"
+          key="pixversec1.com"
+          href="https://pixversec1.com"
           target="_blank"
           rel="noopener noreferrer"
           className="text-xs text-muted-foreground hover:text-foreground transition-colors"
         >
-          happy-horse.cc
+          pixversec1.com
         </a>
         </div>
       </div>
